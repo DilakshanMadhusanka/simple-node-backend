@@ -1,0 +1,15 @@
+{
+  "name": "simple-node-backend",
+  "version": "1.0.0",
+  "description": "A simple Express.js backend with health check and in-memory CRUD REST API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
